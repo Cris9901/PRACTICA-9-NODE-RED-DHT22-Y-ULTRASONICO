@@ -239,8 +239,51 @@ return msg;
 
 ![]()
 
-12. 
+12. Los que estan conectados a la funcion de temperatura los configuramos de la siguiente manera.
 
+*Gauge*
+![]()
+
+*Chart*
+![]()
+
+13. Los que estan conectados a la funcion de humedad los configuramos de esta manera.
+
+*Gauge*
+![]()
+
+*Chart*
+![]()
+
+14. Los que estan conectados a la funcion de distancia los configuramos de esta manera.
+
+*Gauge*
+![]()
+
+*Chart*
+![]()
+
+
+13. Por ultimo en la pestaña de de *Layout* crearemos otro tabulador llamado **Sensor DHT22 con HC-SR04**, dentro de el añadiremos dos grupos uno para los indicadores y otro para las graficas; de igual manera colocaremos tres espaciadores de temperatura,humedad y distancia, los pondremos segun sea el caso y la especificación.
+![]()
+
+### Instrucciónes de operación
+1. Iniciar simulador en [WOKWI](https://https://wokwi.com/).
+2. Visualizar los datos en el monitor serial.
+3. Colocar la temperatura y humedad dando *doble click* al sensor **DHT11**
+4. Colocar la distancia dando *doble click* al sensor **HC-SR04**
+5. Iniciar el simulador en [Node-RED](http://localhost:1880/) dando *click izquierdo* en el botón **Deploy** y despues abrir la interfaz dando *click izquierdo* en el boton de exportar.
+6. Visualizar la interfaz.
+
+## Resultados
+Cuando haya funcionado, verás los valores dentro del monitor serial y la interfaz como se muestra en las siguentes imagenes.
+![]()
+![]()
+![]()
+![]()
+
+# Créditos
+Desarrollado por Ing. Montañez Mejia Cristian.
 
 
 
