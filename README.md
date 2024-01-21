@@ -197,7 +197,7 @@ Serial.println();
 
 ![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%205.jpg)
 
-7. Colocar el bloque ```json```. y configurarlo como se muestra en la imagen.
+7. Colocar el bloque ```json``` y configurarlo como se muestra en la imagen.
 
 ![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%206.jpg)
 
