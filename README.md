@@ -209,7 +209,7 @@ Serial.println();
 
 ![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%208.jpg)
 
-10. Los configuramos con el siguiente codigo, uno para cada funcion
+10. Los configuramos con el siguiente codigo, uno para cada funcion.
 
 
 ```
@@ -265,6 +265,7 @@ return msg;
 
 
 13. Por ultimo en la pestaña de de *Layout* crearemos otro tabulador llamado **Sensor DHT22 con HC-SR04**, dentro de el añadiremos dos grupos uno para los indicadores y otro para las graficas; de igual manera colocaremos tres espaciadores de temperatura,humedad y distancia, los pondremos segun sea el caso y la especificación.
+
 ![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2019.jpg)
 
 ### Instrucciónes de operación
