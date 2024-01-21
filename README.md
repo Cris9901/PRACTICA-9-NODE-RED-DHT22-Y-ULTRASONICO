@@ -179,35 +179,35 @@ Serial.println();
 
 2. Instalar las librerias de **DHT sensor library for ESPx**, **PubSubClient** y **ArduinoJson**  como se muestra en la siguente imagen.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%201.jpg)
 
 3. Hacer la conexion de **DHT11** con la **ESP32** como se muestra en la siguente imagen.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%202.jpg)
 
 4. Hacer la conexion de **HC-SR04** con la **ESP32** como se muestra en la siguente imagen.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%203.jpg)
 
 5. Cambiando al programa de **Node-RED** primero tendran que colocar el bloque de ```mqtt in```.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%204.jpg)
 
 6. Configurar el bloque con el puerto mqtt con el ip ```18.193.219.109``` como se muestra en la imagen.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%205.jpg)
 
 7. Colocar el bloque ```json```. y configurarlo como se muestra en la imagen.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%206.jpg)
 
 8. Configurar el bloque con la acción de ```Always convert to JavaScript Object```  como se muestra en la imagen.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%207.jpg)
 
 9. Colocamos tres bloques ```function```.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%208.jpg)
 
 10. Los configuramos con el siguiente codigo, uno para cada funcion
 
@@ -217,7 +217,7 @@ msg.payload = msg.payload.TEMPERATURA;
 msg.topic = "TEMPERATURA";
 return msg;
 ```
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%209.jpg)
 
 
 ```
@@ -225,7 +225,7 @@ msg.payload = msg.payload.HUMEDAD;
 msg.topic = "HUMEDAD";
 return msg;
 ```
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2010.jpg)
 
 
 ```
@@ -233,39 +233,39 @@ msg.payload = msg.payload.DISTANCIA;
 msg.topic = "DISTANCIA";
 return msg;
 ```
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2011.jpg)
  
 11. Colocamos los bloques ```Chart``` y ```Guage``` a cada una de las funciones.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2012.jpg)
 
 12. Los que estan conectados a la funcion de temperatura los configuramos de la siguiente manera.
 
 *Gauge*
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2013.jpg)
 
 *Chart*
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2014.jpg)
 
 13. Los que estan conectados a la funcion de humedad los configuramos de esta manera.
 
 *Gauge*
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2015.jpg)
 
 *Chart*
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2016.jpg)
 
 14. Los que estan conectados a la funcion de distancia los configuramos de esta manera.
 
 *Gauge*
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2017.jpg)
 
 *Chart*
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2018.jpg)
 
 
 13. Por ultimo en la pestaña de de *Layout* crearemos otro tabulador llamado **Sensor DHT22 con HC-SR04**, dentro de el añadiremos dos grupos uno para los indicadores y otro para las graficas; de igual manera colocaremos tres espaciadores de temperatura,humedad y distancia, los pondremos segun sea el caso y la especificación.
-![]()
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2019.jpg)
 
 ### Instrucciónes de operación
 1. Iniciar simulador en [WOKWI](https://https://wokwi.com/).
@@ -277,10 +277,16 @@ return msg;
 
 ## Resultados
 Cuando haya funcionado, verás los valores dentro del monitor serial y la interfaz como se muestra en las siguentes imagenes.
-![]()
-![]()
-![]()
-![]()
+
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2020.jpg)
+
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2021.jpg)
+
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2024.jpg)
+
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2022.jpg)
+
+![](https://github.com/Cris9901/PRACTICA-9-NODE-RED-DHT22-Y-ULTRASONICO/blob/main/IMAGEN%2023.jpg)
 
 # Créditos
 Desarrollado por Ing. Montañez Mejia Cristian.
